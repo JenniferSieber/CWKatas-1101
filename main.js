@@ -1,10 +1,5 @@
 // www.codewars.com
 // KATA 1 6kyu
-// const arrayDiff = (a, b) => a.filter(number => {
-//     if (number != Number(b.join(''))) {
-//       return number
-//     }
-//   })
 const arrayDiff = (a, b) => a.filter(number => !b.includes(number)); 
 
 console.log(arrayDiff([1,2,2,2,3],[2]));
